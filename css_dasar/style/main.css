@@ -1,0 +1,64 @@
+/* install fonts */
+@font-face {
+    font-family: Dela;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background:linear-gradient(to bottom, rgb(204, 48, 48), rgb(109, 40, 40));
+    height: 100px;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: Dela;
+    color: whitesmoke;
+}
+
+.header .navigasi {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigasi li {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+.header .navigasi li a {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .navigasi li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.icon-kelas {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/gambar1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.parent {
+    margin-top: 100px;
+}
